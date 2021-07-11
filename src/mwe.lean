@@ -14,6 +14,9 @@ example :
       f = (X 0) * f1 + (X 1) * f2 := 
 begin
  ring_exp,
-  --ring,
- -- ring_nf,
+ -- I first tried
+ -- ring,
+ -- rw pow_two,
+ -- rw pow_two
+ -- but the ring_exp version appears to be faster.
 end
