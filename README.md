@@ -11,6 +11,6 @@ Approach:
 1. Generate a Grobner basis $\{g_1, \ldots, g_m\}$ for $I$ and an
    expression  $f = \sum_{i=1}^m r_i g_i$ where the $r_i$ are elements
    of $R$. This is done with an external program like 
-   <https://macaulay2.com>
+   Macaulay2 <https://faculty.math.illinois.edu/Macaulay2/>.
 
 2. Prove that $f = \sum_{i=1}^m r_i g_i$ in mathlib.
